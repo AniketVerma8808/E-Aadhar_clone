@@ -1,0 +1,895 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*---------------------------------------------------------header-section start-----------------------*/
+
+.logo {
+  background-color: white;
+  border: 1px solid grey;
+  width: 100%;
+  height: 100px;
+  border: none;
+}
+
+.logo img {
+  width: 150px;
+  margin-left: 40%;
+  margin-top: -20px;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+}
+
+.nav {
+  max-width: 1300px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+}
+
+#navbar {
+  margin-right: -15px;
+  margin-left: -15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header {
+  background-color: #d24728;
+}
+
+#navbar ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header .navigation {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.header .navigation ul {
+  list-style-type: none;
+  display: block;
+  margin: 0 40px;
+  text-align: center;
+}
+
+.header .navigation ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.header .navigation ul li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px;
+  font-size: 15px;
+}
+
+.header .navigation ul li a:hover {
+  background: #555;
+}
+
+#navbar .home {
+  display: none;
+}
+
+.fa-house {
+  color: white;
+  font-size: 20px;
+}
+
+/*---------------------------------------header section end---------------------------------*/
+.burger {
+  position: absolute;
+  right: 5%;
+  top: 113px;
+  display: none;
+}
+
+.burlin {
+  background-color: #000;
+  width: 33px;
+  height: 4px;
+  margin: 5px 4px;
+}
+
+/*-----------------------------------------------------------main-content-section start-----------------------------------------------------------*/
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  max-width: 1350px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px
+}
+
+.box-70 {
+  width: 70%;
+  float: left;
+  padding: 15px;
+  max-width: 70%;
+}
+
+.box-25 {
+  width: 25%;
+  float: left;
+  padding: 15px;
+  max-width: 25%;
+}
+
+.box-30 {
+  width: 30%;
+  float: left;
+  padding: 15px;
+  max-width: 30%;
+}
+
+.main-box {
+  width: 70%;
+  float: left;
+  padding: 15px;
+  max-width: 70%;
+}
+
+.box-75 {
+  width: 75%;
+  float: left;
+  padding: 15px;
+  max-width: 75%;
+}
+
+/* Left Section Start Here */
+.content-box-left {
+  width: 70%;
+  max-width: 70%;
+}
+
+.main-content-section .main-titile {
+  font-size: 28px;
+  font-weight: 800;
+  margin-top: 0;
+  font-family: Calibri;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  border-bottom: 4px solid #d24728;
+  line-height: 1.4;
+}
+
+.main-content-section .main-titile a {
+  color: #0c1f38;
+  text-decoration: none;
+}
+
+.main-content-section .main-titile a:hover {
+  color: #d24728;
+}
+
+.main-content-section .boxes {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px 1px rgb(0 0 0 / 10%);
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.main-content-section .boxes p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #323232;
+  line-height: 24px;
+  text-align: justify;
+}
+
+.main-content-section .boxes p a {
+  color: #333;
+}
+
+.main-content-section .boxes p a:hover {
+  color: #d24728;
+}
+
+/* Left Section End Here */
+
+/* Right Section Start Here */
+.content-box-right {
+  width: 30%;
+  max-width: 30%;
+}
+
+.comment_right_section {
+  background-color: var(--TFontColor);
+  border-radius: 2px;
+  box-shadow: 0 1px 2px #c9cccd;
+  margin-bottom: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.comment_right_section h3 {
+  padding: 20px 15px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #424242;
+  text-transform: capitalize;
+  border: 2px solid red;
+  border-top: none;
+}
+
+.comment_right_section .Questions-posts {
+  padding: 0px 15px;
+}
+
+.comment_right_section .Questions-posts ul {
+  list-style-type: none
+}
+
+.comment_right_section .Questions-posts ul li {
+  list-style-type: none;
+  display: block;
+  padding: 15px 0px;
+  border-bottom: 1px solid #eee;
+  vertical-align: middle;
+  line-height: 26px;
+}
+
+.comment_right_section .Questions-posts ul li a {
+  color: black;
+  font-size: 15px;
+  font-weight: normal;
+  text-align: justify;
+}
+
+.comment_right_section .Questions-posts ul li a:hover {
+  color: #d24728;
+}
+
+/* Content Section End Here */
+
+/*-------------------------------------------------------------main-content-section start-----------------------------------------------------------*/
+
+
+
+
+
+
+/*---------------------------------------------------------------- Information Section Start Here ----------------------------------------------------*/
+.information-section {
+  width: 100%;
+  margin: 80px 0px 40px;
+  border: 1px solid #d24728;
+}
+
+.col-100 {
+  width: 100%;
+  padding: 15px;
+  max-width: 100%;
+}
+
+.information-section,
+h3,
+h4,
+h5 {
+  color: #d24728
+}
+
+.information-section .info_inner {
+  padding: 20px 20px 0px;
+}
+
+.information-section h3 {
+  font-size: 24px;
+  line-height: 30px;
+  padding-bottom: 25px;
+  text-align: justify;
+}
+
+.information-section h4 {
+  font-size: 22px;
+  line-height: 30px;
+  padding-bottom: 20px;
+  text-align: justify;
+}
+
+.information-section h5 {
+  font-size: 20px;
+  line-height: 26px;
+  padding-bottom: 20px;
+  text-align: justify;
+}
+
+.information-section p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #000;
+  line-height: 28px;
+  text-align: justify;
+  padding-bottom: 20px;
+}
+
+.information-section ul,
+.information-section ol {
+  list-style-type: disc;
+  padding-left: 30px;
+  margin-bottom: 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.information-section ul li,
+.information-section ol li {
+  list-style-type: disc;
+  font-size: 16px;
+  color: #000;
+  line-height: 28px;
+  text-align: justify;
+  padding-bottom: 10px;
+}
+
+.information-section ol {
+  list-style-type: decimal;
+}
+
+.information-section ol li {
+  list-style-type: decimal;
+}
+
+/*------------------------------------------------ Information Section End Here-------------------------------------------------------------------- */
+
+
+
+/*//////////////////////////////////////////////////////CSS start download aadhar card///////////////////////////*/
+.content-section {
+  width: 100%;
+  padding: 40px 0px;
+}
+
+.shadow-content {
+  box-shadow: 1px 1px 4px 1px #c9cccd;
+  padding: 25px;
+  margin-bottom: 20px;
+}
+
+.shadow-content p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #000;
+  line-height: 28px;
+  text-align: justify;
+  padding-bottom: 20px;
+}
+
+.download-content h2 {
+  font-size: 26px;
+  line-height: 35px;
+  color: #d24728;
+  padding-bottom: 25px;
+}
+
+.shadow-content h3 {
+  font-size: 24px;
+  line-height: 30px;
+  color: #d24728;
+  padding-bottom: 25px;
+}
+
+.shadow-content h4 {
+  font-size: 22px;
+  line-height: 30px;
+  color: #d24728;
+  padding-bottom: 20px;
+}
+
+.shadow-content h5 {
+  font-size: 20px;
+  line-height: 26px;
+  color: #d24728;
+  padding-bottom: 20px;
+}
+
+.shadow-content ul,
+.shadow-content ol {
+  list-style-type: disc;
+  padding-left: 30px;
+  margin-bottom: 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.shadow-content ul li,
+.shadow-content ol li {
+  list-style-type: disc;
+  font-size: 16px;
+  color: #000;
+  line-height: 28px;
+  text-align: justify;
+  padding-bottom: 10px;
+}
+
+.shadow-content ol {
+  list-style-type: decimal;
+}
+
+
+.shadow-content ol li {
+  list-style-type: decimal;
+}
+
+.shadow-content ul.share {
+  list-style-type: none;
+  text-align: right;
+}
+
+.shadow-content ul.share li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 20px;
+  color: #0c254d;
+  font-weight: bold;
+  margin: 0px 3px;
+}
+
+.shadow-content ul.share li a {
+  display: block;
+}
+
+.shadow-content ul.share li a i {
+  font-size: 16px;
+  color: #002d71;
+}
+
+.shadow-content ul.share li a:hover i {
+  color: #d24728;
+}
+
+.shadow-content a {
+  text-decoration: none;
+}
+
+.download-title {
+  background-color: blue;
+  width: 350px;
+  padding: 10px 0px;
+  border-radius: 6px;
+  margin: auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.download-title:hover {
+  background-color: #d24728;
+  transition: all 0.2s ease-in-out;
+}
+
+.title-box a {
+  color: white;
+}
+
+.title-box {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+/*/////////////////////////////////////////comment-section AND FORM section///////////////////////////////////////////////////////////////////*/
+.comment-section {
+  width: 100%;
+}
+
+.form-section-100 {
+  width: 100%;
+  max-width: 100%;
+}
+
+.form-section-50 {
+  width: 50%;
+  float: left;
+  padding: 15px;
+  max-width: 50%;
+}
+
+.shadow-content form .form-group {
+  margin-bottom: 20px;
+}
+
+.shadow-content form .form-group textarea {
+  width: 100%;
+  resize: vertical;
+  height: 120px;
+  max-height: 130px;
+  min-height: 100px;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #002d71;
+}
+
+.shadow-content form .form-group input {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  padding: 15px;
+  border: 1px solid #002d71;
+}
+
+.shadow-content form .form-group input:focus,
+.content-left form .form-group textarea:focus {
+  outline: none;
+  border: none;
+  box-shadow: 1px 1px 3px 1px gray;
+}
+
+.shadow-content form button {
+  width: 200px;
+  background-color: white;
+  color: #d24728;
+  padding: 10px 20px;
+  border: 1px solid #d24728;
+  border-radius: 10px;
+  height: 40px;
+  font-size: 18px;
+  display: block;
+  margin: 0 auto;
+}
+
+.shadow-content form button:hover {
+  background-color: #d24728;
+  color: white;
+}
+
+
+/*------------------------------------------------------------------only comment section------------------------*/
+.comment-box {
+  display: inline-block;
+  width: 100%;
+}
+
+.comment-box .com-sec {
+  display: flex;
+  margin: 20px 0px;
+}
+
+.comment-box h3 {
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+}
+
+.comment-box p {
+  font-size: 13px;
+  line-height: 22px;
+  padding-left: 30px;
+  padding-bottom: 5px;
+}
+
+.comment-box ul {
+  display: flex;
+}
+
+.comment-box ul li {
+  list-style-type: none;
+  font-size: 15px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.comment-box ul li a {
+  font-size: 15px;
+  color: #323232;
+}
+
+.comment-box ul li a.heart:hover {
+  font-size: 15px;
+  color: red;
+}
+
+.comment-box img {
+  border-radius: 30px;
+  margin-top: 5px;
+}
+
+.comment-box h4 {
+  font-size: 20px;
+  padding-bottom: 5px;
+  padding-left: 30px
+}
+
+
+/*---------------////--------------------------------------Online apply adhar card---------*/
+
+.container {
+  max-width: 1250px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+}
+
+.banner-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 150px;
+}
+
+.banner-50 {
+  width: 50%;
+  padding: 15px;
+  max-width: 50%;
+}
+
+.banner-section {
+  background-color: #32a895;
+}
+
+.bnr-content {
+  width: 100%;
+  bottom: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bnr-content .title {
+  margin-bottom: 10px;
+  margin-left: 0px;
+}
+
+.bnr-content .title h1 {
+  color: white;
+  font-size: 27px;
+  font-weight: normal;
+}
+
+.bnr-img {
+  width: 100%;
+  margin: 0px;
+  padding: 15px 0px 10px;
+}
+
+.bnr-img img {
+  border-radius: 8px
+}
+
+/*---------------------------------------------------footer section start-------------------------*/
+
+footer {
+  background-color: #322f2d;
+  width: 100%;
+  height: 70px
+}
+
+.footer-section {
+  padding-top: 15px
+}
+
+.footer-section p {
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  align-content: center;
+}
+
+.footer-section p a {
+  color: #ddd;
+}
+
+.footer-section p a:hover {
+  color: #d24728;
+}
+
+
+.footer-section ul {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 6px 0px;
+}
+
+.footer-section li {
+  list-style-type: none;
+  padding: 0px 10px;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.footer-section ul li a:hover {
+  color: #d24728;
+  transition: all 0.2s ease-in-out;
+}
+
+/*------------------------------------------------------footer section end------------------------------------------------*/
+
+
+
+
+
+/*------------------about section start-------------------------------*/
+.about-section {
+  padding: 30px 0px;
+  width: 100%;
+  padding-top: 155px;
+}
+
+.about-section h1 {
+  font-size: 28px;
+  margin: 20px 0px 30px;
+  font-weight: 600;
+  color: #d24728;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 24px;
+  margin: 15px 0px 15px;
+  font-weight: 600;
+  color: #d24728;
+  text-align: left;
+}
+
+.about-section p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #323232;
+  line-height: 24px;
+  text-align: justify;
+  padding-bottom: 20px;
+}
+
+/* Media Query Start Here */
+
+@media(max-width: 991px) {
+  .about-section {
+    margin-top: 0px;
+  }
+}
+
+@media(max-width: 576px) {
+  .about-section h1 {
+    font-size: 26px;
+  }
+
+  .about-section h2 {
+    font-size: 23px;
+  }
+}
+
+/*---------------------------------------------------about section end---------------------------------------------------*/
+
+
+
+
+/*---------------privacy scetion start--------------------------*/
+.privacy-section {
+  padding: 30px 0px;
+  width: 100%;
+  padding-top: 155px;
+}
+
+.privacy-section h1 {
+  font-size: 28px;
+  margin: 20px 0px 30px;
+  font-weight: 600;
+  color: #d24728;
+  text-align: center;
+}
+
+.privacy-section h2 {
+  font-size: 24px;
+  margin: 15px 0px 15px;
+  font-weight: 600;
+  color: #d24728;
+  text-align: left;
+}
+
+.privacy-section h3 {
+  font-size: 22px;
+  margin: 15px 0px 15px;
+  font-weight: 600;
+  color: #d24728;
+  text-align: left;
+}
+
+.privacy-section h4 {
+  font-size: 21px;
+  margin: 15px 0px 15px;
+  font-weight: 600;
+  color: #d24728;
+  text-align: left;
+}
+
+.privacy-section p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #323232;
+  line-height: 24px;
+  text-align: justify;
+  padding-bottom: 20px;
+}
+
+/* Media Query Start Here */
+
+@media(max-width: 991px) {
+  .privacy-section {
+    margin-top: 0px;
+  }
+}
+
+@media(max-width: 576px) {
+  .privacy-section h1 {
+    font-size: 26px;
+  }
+
+  .privacy-section h2 {
+    font-size: 23px;
+  }
+
+  .privacy-section h3 {
+    font-size: 20px;
+  }
+
+  .privacy-section h4 {
+    font-size: 19px;
+  }
+}
+
+/*-------------------------privacy scetion end-----------------------------*/
+
+
+
+
+
+/*-----------term section start---------------------------------*/
+
+.term-section {
+  padding: 30px 0px;
+  width: 100%;
+  padding-top: 155px;
+}
+
+.term-section h1 {
+  font-size: 28px;
+  margin: 20px 0px 30px;
+  font-weight: 600;
+  color: #d24728;
+  text-align: center;
+}
+
+.term-section p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #323232;
+  line-height: 24px;
+  text-align: justify;
+  padding-bottom: 20px;
+}
+
+/* Media Query Start Here */
+
+@media(max-width: 991px) {
+  .term-section {
+    margin-top: 0px;
+  }
+}
+
+@media(max-width: 576px) {
+  .term-section h1 {
+    font-size: 26px;
+  }
+}
+
+/*-------------------------------------------term section end----------------------------------------------------------------*/
